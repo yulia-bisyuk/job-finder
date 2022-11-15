@@ -1,40 +1,20 @@
 {
   "files": {
     "main.css": "/AleannLab-test-task/static/css/main.f28dc1bb.css",
-    "main.js": "/AleannLab-test-task/static/js/main.508b01ef.js",
+    "main.js": "/AleannLab-test-task/static/js/main.9779d143.js",
     "static/js/480.bdffba6d.chunk.js": "/AleannLab-test-task/static/js/480.bdffba6d.chunk.js",
-    "static/js/212.3f2373b9.chunk.js": "/AleannLab-test-task/static/js/212.3f2373b9.chunk.js",
+    "static/js/212.3f978e11.chunk.js": "/AleannLab-test-task/static/js/212.3f978e11.chunk.js",
     "static/js/472.1a0be372.chunk.js": "/AleannLab-test-task/static/js/472.1a0be372.chunk.js",
-    "static/media/building-12.jpg": "/AleannLab-test-task/static/media/building-12.4e602e42203bfdcfeaf7.jpg",
-    "static/media/building-20.jpg": "/AleannLab-test-task/static/media/building-20.e994c4e4aba50a1b99c4.jpg",
-    "static/media/building-6.jpg": "/AleannLab-test-task/static/media/building-6.e994c4e4aba50a1b99c4.jpg",
-    "static/media/building-7.jpg": "/AleannLab-test-task/static/media/building-7.ab399a8eaacc9b41ec62.jpg",
-    "static/media/building-14.jpg": "/AleannLab-test-task/static/media/building-14.d1a2f8f8b17cf3ee9292.jpg",
-    "static/media/building-17.jpg": "/AleannLab-test-task/static/media/building-17.d1a2f8f8b17cf3ee9292.jpg",
-    "static/media/building-19.jpg": "/AleannLab-test-task/static/media/building-19.1f2e5529ec315cdc8bc9.jpg",
-    "static/media/building-8.jpg": "/AleannLab-test-task/static/media/building-8.1f2e5529ec315cdc8bc9.jpg",
-    "static/media/building-10.jpg": "/AleannLab-test-task/static/media/building-10.af1d0c97c88b2c0fd9bf.jpg",
-    "static/media/building-15.jpg": "/AleannLab-test-task/static/media/building-15.fbe517fb332e32474cd4.jpg",
-    "static/media/building-16.jpg": "/AleannLab-test-task/static/media/building-16.fbe517fb332e32474cd4.jpg",
-    "static/media/building-5.jpg": "/AleannLab-test-task/static/media/building-5.22939b3d96845e6363fc.jpg",
-    "static/media/building-18.jpg": "/AleannLab-test-task/static/media/building-18.9373194a0a36dc9fb5c3.jpg",
-    "static/media/building-9.jpg": "/AleannLab-test-task/static/media/building-9.9373194a0a36dc9fb5c3.jpg",
-    "static/media/building-11.jpg": "/AleannLab-test-task/static/media/building-11.4d7777eb5af5d50fab63.jpg",
-    "static/media/building-13.jpg": "/AleannLab-test-task/static/media/building-13.03a201812878620a04f9.jpg",
-    "static/media/building-2.jpg": "/AleannLab-test-task/static/media/building-2.e5fc652e74ab3ce4451a.jpg",
-    "static/media/building-3.jpg": "/AleannLab-test-task/static/media/building-3.61e73e65c59eb68fc7e6.jpg",
-    "static/media/building-1.jpg": "/AleannLab-test-task/static/media/building-1.ab7052727a67c2f82dd9.jpg",
-    "static/media/building-4.jpg": "/AleannLab-test-task/static/media/building-4.55f1fa3cfd90fdd1e3ce.jpg",
     "static/media/sprite.svg": "/AleannLab-test-task/static/media/sprite.614db74f104e038fc9f5048716150567.svg",
     "index.html": "/AleannLab-test-task/index.html",
     "main.f28dc1bb.css.map": "/AleannLab-test-task/static/css/main.f28dc1bb.css.map",
-    "main.508b01ef.js.map": "/AleannLab-test-task/static/js/main.508b01ef.js.map",
+    "main.9779d143.js.map": "/AleannLab-test-task/static/js/main.9779d143.js.map",
     "480.bdffba6d.chunk.js.map": "/AleannLab-test-task/static/js/480.bdffba6d.chunk.js.map",
-    "212.3f2373b9.chunk.js.map": "/AleannLab-test-task/static/js/212.3f2373b9.chunk.js.map",
+    "212.3f978e11.chunk.js.map": "/AleannLab-test-task/static/js/212.3f978e11.chunk.js.map",
     "472.1a0be372.chunk.js.map": "/AleannLab-test-task/static/js/472.1a0be372.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f28dc1bb.css",
-    "static/js/main.508b01ef.js"
+    "static/js/main.9779d143.js"
   ]
 }
