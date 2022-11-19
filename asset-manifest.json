@@ -1,22 +1,24 @@
 {
   "files": {
     "main.css": "/AleannLab-test-task/static/css/main.f28dc1bb.css",
-    "main.js": "/AleannLab-test-task/static/js/main.5ecdf731.js",
+    "main.js": "/AleannLab-test-task/static/js/main.fa79bf5f.js",
     "static/js/480.5efbfd44.chunk.js": "/AleannLab-test-task/static/js/480.5efbfd44.chunk.js",
-    "static/css/892.0098bb07.chunk.css": "/AleannLab-test-task/static/css/892.0098bb07.chunk.css",
-    "static/js/892.477700a7.chunk.js": "/AleannLab-test-task/static/js/892.477700a7.chunk.js",
-    "static/js/1.2e239251.chunk.js": "/AleannLab-test-task/static/js/1.2e239251.chunk.js",
-    "static/media/sprite.svg": "/AleannLab-test-task/static/media/sprite.614db74f104e038fc9f5048716150567.svg",
+    "static/css/892.d72b781a.chunk.css": "/AleannLab-test-task/static/css/892.d72b781a.chunk.css",
+    "static/js/892.9402f97c.chunk.js": "/AleannLab-test-task/static/js/892.9402f97c.chunk.js",
+    "static/js/51.c9422ea4.chunk.js": "/AleannLab-test-task/static/js/51.c9422ea4.chunk.js",
+    "static/js/912.9c6e135a.chunk.js": "/AleannLab-test-task/static/js/912.9c6e135a.chunk.js",
+    "static/media/sprite.svg": "/AleannLab-test-task/static/media/sprite.ae857a26b9c54528c0c4b8ea9a6cde68.svg",
     "index.html": "/AleannLab-test-task/index.html",
     "main.f28dc1bb.css.map": "/AleannLab-test-task/static/css/main.f28dc1bb.css.map",
-    "main.5ecdf731.js.map": "/AleannLab-test-task/static/js/main.5ecdf731.js.map",
+    "main.fa79bf5f.js.map": "/AleannLab-test-task/static/js/main.fa79bf5f.js.map",
     "480.5efbfd44.chunk.js.map": "/AleannLab-test-task/static/js/480.5efbfd44.chunk.js.map",
-    "892.0098bb07.chunk.css.map": "/AleannLab-test-task/static/css/892.0098bb07.chunk.css.map",
-    "892.477700a7.chunk.js.map": "/AleannLab-test-task/static/js/892.477700a7.chunk.js.map",
-    "1.2e239251.chunk.js.map": "/AleannLab-test-task/static/js/1.2e239251.chunk.js.map"
+    "892.d72b781a.chunk.css.map": "/AleannLab-test-task/static/css/892.d72b781a.chunk.css.map",
+    "892.9402f97c.chunk.js.map": "/AleannLab-test-task/static/js/892.9402f97c.chunk.js.map",
+    "51.c9422ea4.chunk.js.map": "/AleannLab-test-task/static/js/51.c9422ea4.chunk.js.map",
+    "912.9c6e135a.chunk.js.map": "/AleannLab-test-task/static/js/912.9c6e135a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f28dc1bb.css",
-    "static/js/main.5ecdf731.js"
+    "static/js/main.fa79bf5f.js"
   ]
 }
