@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/AleannLab-test-task/static/css/main.f28dc1bb.css",
-    "main.js": "/AleannLab-test-task/static/js/main.fa79bf5f.js",
-    "static/js/480.5efbfd44.chunk.js": "/AleannLab-test-task/static/js/480.5efbfd44.chunk.js",
-    "static/css/892.d72b781a.chunk.css": "/AleannLab-test-task/static/css/892.d72b781a.chunk.css",
-    "static/js/892.9402f97c.chunk.js": "/AleannLab-test-task/static/js/892.9402f97c.chunk.js",
-    "static/js/51.c9422ea4.chunk.js": "/AleannLab-test-task/static/js/51.c9422ea4.chunk.js",
-    "static/js/912.9c6e135a.chunk.js": "/AleannLab-test-task/static/js/912.9c6e135a.chunk.js",
-    "static/media/sprite.svg": "/AleannLab-test-task/static/media/sprite.ae857a26b9c54528c0c4b8ea9a6cde68.svg",
-    "index.html": "/AleannLab-test-task/index.html",
-    "main.f28dc1bb.css.map": "/AleannLab-test-task/static/css/main.f28dc1bb.css.map",
-    "main.fa79bf5f.js.map": "/AleannLab-test-task/static/js/main.fa79bf5f.js.map",
-    "480.5efbfd44.chunk.js.map": "/AleannLab-test-task/static/js/480.5efbfd44.chunk.js.map",
-    "892.d72b781a.chunk.css.map": "/AleannLab-test-task/static/css/892.d72b781a.chunk.css.map",
-    "892.9402f97c.chunk.js.map": "/AleannLab-test-task/static/js/892.9402f97c.chunk.js.map",
-    "51.c9422ea4.chunk.js.map": "/AleannLab-test-task/static/js/51.c9422ea4.chunk.js.map",
-    "912.9c6e135a.chunk.js.map": "/AleannLab-test-task/static/js/912.9c6e135a.chunk.js.map"
+    "main.css": "/job-finder/static/css/main.f28dc1bb.css",
+    "main.js": "/job-finder/static/js/main.66f29bf1.js",
+    "static/js/480.5efbfd44.chunk.js": "/job-finder/static/js/480.5efbfd44.chunk.js",
+    "static/css/892.d72b781a.chunk.css": "/job-finder/static/css/892.d72b781a.chunk.css",
+    "static/js/892.9402f97c.chunk.js": "/job-finder/static/js/892.9402f97c.chunk.js",
+    "static/js/51.c9422ea4.chunk.js": "/job-finder/static/js/51.c9422ea4.chunk.js",
+    "static/js/912.d7808d58.chunk.js": "/job-finder/static/js/912.d7808d58.chunk.js",
+    "static/media/sprite.svg": "/job-finder/static/media/sprite.ae857a26b9c54528c0c4b8ea9a6cde68.svg",
+    "index.html": "/job-finder/index.html",
+    "main.f28dc1bb.css.map": "/job-finder/static/css/main.f28dc1bb.css.map",
+    "main.66f29bf1.js.map": "/job-finder/static/js/main.66f29bf1.js.map",
+    "480.5efbfd44.chunk.js.map": "/job-finder/static/js/480.5efbfd44.chunk.js.map",
+    "892.d72b781a.chunk.css.map": "/job-finder/static/css/892.d72b781a.chunk.css.map",
+    "892.9402f97c.chunk.js.map": "/job-finder/static/js/892.9402f97c.chunk.js.map",
+    "51.c9422ea4.chunk.js.map": "/job-finder/static/js/51.c9422ea4.chunk.js.map",
+    "912.d7808d58.chunk.js.map": "/job-finder/static/js/912.d7808d58.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f28dc1bb.css",
-    "static/js/main.fa79bf5f.js"
+    "static/js/main.66f29bf1.js"
   ]
 }
