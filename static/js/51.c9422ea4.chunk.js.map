@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/51.c9422ea4.chunk.js","mappings":"kJAIA,UAJmB,SAAC,GAAe,IAAbA,EAAY,EAAZA,MACpB,OAAO,yBAAMA,GACd,C","sources":["pages/JobDetails/JobDetails.jsx"],"sourcesContent":["const JobDetails = ({ title }) => {\n  return <div>{title}</div>;\n};\n\nexport default JobDetails;\n"],"names":["title"],"sourceRoot":""}
