@@ -1,30 +1,30 @@
 {
   "files": {
     "main.css": "/job-finder/static/css/main.1ba4546a.css",
-    "main.js": "/job-finder/static/js/main.3785b5b2.js",
+    "main.js": "/job-finder/static/js/main.06c1db00.js",
     "static/js/673.e7ed5907.chunk.js": "/job-finder/static/js/673.e7ed5907.chunk.js",
     "static/js/852.7666cff3.chunk.js": "/job-finder/static/js/852.7666cff3.chunk.js",
     "static/css/801.ecbe5390.chunk.css": "/job-finder/static/css/801.ecbe5390.chunk.css",
-    "static/js/801.95cab99d.chunk.js": "/job-finder/static/js/801.95cab99d.chunk.js",
+    "static/js/801.929dc648.chunk.js": "/job-finder/static/js/801.929dc648.chunk.js",
     "static/js/51.c9422ea4.chunk.js": "/job-finder/static/js/51.c9422ea4.chunk.js",
     "static/js/305.6fd08641.chunk.js": "/job-finder/static/js/305.6fd08641.chunk.js",
-    "static/js/403.373e72bd.chunk.js": "/job-finder/static/js/403.373e72bd.chunk.js",
+    "static/js/403.ce3133d4.chunk.js": "/job-finder/static/js/403.ce3133d4.chunk.js",
     "static/js/546.27ba174e.chunk.js": "/job-finder/static/js/546.27ba174e.chunk.js",
     "static/media/sprite.svg": "/job-finder/static/media/sprite.ae857a26b9c54528c0c4b8ea9a6cde68.svg",
     "index.html": "/job-finder/index.html",
     "main.1ba4546a.css.map": "/job-finder/static/css/main.1ba4546a.css.map",
-    "main.3785b5b2.js.map": "/job-finder/static/js/main.3785b5b2.js.map",
+    "main.06c1db00.js.map": "/job-finder/static/js/main.06c1db00.js.map",
     "673.e7ed5907.chunk.js.map": "/job-finder/static/js/673.e7ed5907.chunk.js.map",
     "852.7666cff3.chunk.js.map": "/job-finder/static/js/852.7666cff3.chunk.js.map",
     "801.ecbe5390.chunk.css.map": "/job-finder/static/css/801.ecbe5390.chunk.css.map",
-    "801.95cab99d.chunk.js.map": "/job-finder/static/js/801.95cab99d.chunk.js.map",
+    "801.929dc648.chunk.js.map": "/job-finder/static/js/801.929dc648.chunk.js.map",
     "51.c9422ea4.chunk.js.map": "/job-finder/static/js/51.c9422ea4.chunk.js.map",
     "305.6fd08641.chunk.js.map": "/job-finder/static/js/305.6fd08641.chunk.js.map",
-    "403.373e72bd.chunk.js.map": "/job-finder/static/js/403.373e72bd.chunk.js.map",
+    "403.ce3133d4.chunk.js.map": "/job-finder/static/js/403.ce3133d4.chunk.js.map",
     "546.27ba174e.chunk.js.map": "/job-finder/static/js/546.27ba174e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ba4546a.css",
-    "static/js/main.3785b5b2.js"
+    "static/js/main.06c1db00.js"
   ]
 }
