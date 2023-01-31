@@ -1,31 +1,27 @@
 {
   "files": {
     "main.css": "/job-finder/static/css/main.1ba4546a.css",
-    "main.js": "/job-finder/static/js/main.061a9ec2.js",
-    "static/js/673.e7ed5907.chunk.js": "/job-finder/static/js/673.e7ed5907.chunk.js",
-    "static/js/852.832ed814.chunk.js": "/job-finder/static/js/852.832ed814.chunk.js",
-    "static/css/864.3a16bfc4.chunk.css": "/job-finder/static/css/864.3a16bfc4.chunk.css",
-    "static/js/864.2dd4ed82.chunk.js": "/job-finder/static/js/864.2dd4ed82.chunk.js",
-    "static/js/51.c9422ea4.chunk.js": "/job-finder/static/js/51.c9422ea4.chunk.js",
-    "static/js/300.6ffd3193.chunk.js": "/job-finder/static/js/300.6ffd3193.chunk.js",
-    "static/js/27.2d9c3f89.chunk.js": "/job-finder/static/js/27.2d9c3f89.chunk.js",
-    "static/js/546.dae93e2f.chunk.js": "/job-finder/static/js/546.dae93e2f.chunk.js",
+    "main.js": "/job-finder/static/js/main.be814564.js",
+    "static/js/256.c1cbc7fe.chunk.js": "/job-finder/static/js/256.c1cbc7fe.chunk.js",
+    "static/css/313.82ae2afc.chunk.css": "/job-finder/static/css/313.82ae2afc.chunk.css",
+    "static/js/313.c06848ce.chunk.js": "/job-finder/static/js/313.c06848ce.chunk.js",
+    "static/js/463.4559b550.chunk.js": "/job-finder/static/js/463.4559b550.chunk.js",
+    "static/js/44.4bf5aca2.chunk.js": "/job-finder/static/js/44.4bf5aca2.chunk.js",
+    "static/js/759.02ae107d.chunk.js": "/job-finder/static/js/759.02ae107d.chunk.js",
     "static/media/success-image.svg": "/job-finder/static/media/success-image.69d3674142c5f91589e21bc193e675fb.svg",
     "static/media/sprite.svg": "/job-finder/static/media/sprite.ae857a26b9c54528c0c4b8ea9a6cde68.svg",
     "index.html": "/job-finder/index.html",
     "main.1ba4546a.css.map": "/job-finder/static/css/main.1ba4546a.css.map",
-    "main.061a9ec2.js.map": "/job-finder/static/js/main.061a9ec2.js.map",
-    "673.e7ed5907.chunk.js.map": "/job-finder/static/js/673.e7ed5907.chunk.js.map",
-    "852.832ed814.chunk.js.map": "/job-finder/static/js/852.832ed814.chunk.js.map",
-    "864.3a16bfc4.chunk.css.map": "/job-finder/static/css/864.3a16bfc4.chunk.css.map",
-    "864.2dd4ed82.chunk.js.map": "/job-finder/static/js/864.2dd4ed82.chunk.js.map",
-    "51.c9422ea4.chunk.js.map": "/job-finder/static/js/51.c9422ea4.chunk.js.map",
-    "300.6ffd3193.chunk.js.map": "/job-finder/static/js/300.6ffd3193.chunk.js.map",
-    "27.2d9c3f89.chunk.js.map": "/job-finder/static/js/27.2d9c3f89.chunk.js.map",
-    "546.dae93e2f.chunk.js.map": "/job-finder/static/js/546.dae93e2f.chunk.js.map"
+    "main.be814564.js.map": "/job-finder/static/js/main.be814564.js.map",
+    "256.c1cbc7fe.chunk.js.map": "/job-finder/static/js/256.c1cbc7fe.chunk.js.map",
+    "313.82ae2afc.chunk.css.map": "/job-finder/static/css/313.82ae2afc.chunk.css.map",
+    "313.c06848ce.chunk.js.map": "/job-finder/static/js/313.c06848ce.chunk.js.map",
+    "463.4559b550.chunk.js.map": "/job-finder/static/js/463.4559b550.chunk.js.map",
+    "44.4bf5aca2.chunk.js.map": "/job-finder/static/js/44.4bf5aca2.chunk.js.map",
+    "759.02ae107d.chunk.js.map": "/job-finder/static/js/759.02ae107d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ba4546a.css",
-    "static/js/main.061a9ec2.js"
+    "static/js/main.be814564.js"
   ]
 }
