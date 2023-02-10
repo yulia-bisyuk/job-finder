@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/job-finder/static/css/main.1ba4546a.css",
-    "main.js": "/job-finder/static/js/main.4272b479.js",
+    "main.js": "/job-finder/static/js/main.3e32e459.js",
     "static/js/256.d68154f7.chunk.js": "/job-finder/static/js/256.d68154f7.chunk.js",
     "static/css/996.84342660.chunk.css": "/job-finder/static/css/996.84342660.chunk.css",
     "static/js/996.0e5f3912.chunk.js": "/job-finder/static/js/996.0e5f3912.chunk.js",
-    "static/js/337.58b22ed5.chunk.js": "/job-finder/static/js/337.58b22ed5.chunk.js",
+    "static/js/337.ce509a9a.chunk.js": "/job-finder/static/js/337.ce509a9a.chunk.js",
     "static/js/618.f32001ff.chunk.js": "/job-finder/static/js/618.f32001ff.chunk.js",
     "static/js/873.7230718a.chunk.js": "/job-finder/static/js/873.7230718a.chunk.js",
     "static/js/829.a416243c.chunk.js": "/job-finder/static/js/829.a416243c.chunk.js",
@@ -13,17 +13,17 @@
     "static/media/sprite.svg": "/job-finder/static/media/sprite.6dc0db34112ede10a03b5ba06486fde7.svg",
     "index.html": "/job-finder/index.html",
     "main.1ba4546a.css.map": "/job-finder/static/css/main.1ba4546a.css.map",
-    "main.4272b479.js.map": "/job-finder/static/js/main.4272b479.js.map",
+    "main.3e32e459.js.map": "/job-finder/static/js/main.3e32e459.js.map",
     "256.d68154f7.chunk.js.map": "/job-finder/static/js/256.d68154f7.chunk.js.map",
     "996.84342660.chunk.css.map": "/job-finder/static/css/996.84342660.chunk.css.map",
     "996.0e5f3912.chunk.js.map": "/job-finder/static/js/996.0e5f3912.chunk.js.map",
-    "337.58b22ed5.chunk.js.map": "/job-finder/static/js/337.58b22ed5.chunk.js.map",
+    "337.ce509a9a.chunk.js.map": "/job-finder/static/js/337.ce509a9a.chunk.js.map",
     "618.f32001ff.chunk.js.map": "/job-finder/static/js/618.f32001ff.chunk.js.map",
     "873.7230718a.chunk.js.map": "/job-finder/static/js/873.7230718a.chunk.js.map",
     "829.a416243c.chunk.js.map": "/job-finder/static/js/829.a416243c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ba4546a.css",
-    "static/js/main.4272b479.js"
+    "static/js/main.3e32e459.js"
   ]
 }
