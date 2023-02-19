@@ -1,21 +1,13 @@
-import GoogleMapReact from 'google-map-react';
-import { GOOGLE_API_KEY } from 'constants/apiKeys';
-import LocationPin from './LocationPin';
-
 const Map = ({ location }) => {
   return (
-    <div style={{ height: '380px', width: '100%' }}>
-      <GoogleMapReact
-        bootstrapURLKeys={{ key: GOOGLE_API_KEY }}
-        // defaultCenter={location}
-        center={location}
-        defaultZoom={16}
-        yesIWantToUseGoogleMapApiInternals={true}
-        mapId="380914b3c73487de"
-      >
-        <LocationPin lat={location.lat} lng={location.lng} />
-      </GoogleMapReact>
-    </div>
+    <iframe
+      title="map"
+      width="100%"
+      height="350"
+      referrerPolicy="no-referrer-when-downgrade"
+      src={`https://www.google.com/maps/embed/v1/place?key=${process.env.REACT_APP_GOOGLE_API_KEY}&q=${location}&maptype=satellite`}
+      allowFullScreen
+    ></iframe>
   );
 };
 
