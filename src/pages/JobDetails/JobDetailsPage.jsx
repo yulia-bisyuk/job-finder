@@ -36,6 +36,7 @@ const JobDetails = () => {
     axios
       .get(`${BASE_URL}/${jobId}`)
       .then(res => {
+        console.log(res);
         setJobItem(res.data);
         setLocation(encodeURI(res.data.locations[0].name));
       })
