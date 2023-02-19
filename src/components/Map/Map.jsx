@@ -1,4 +1,5 @@
 const Map = ({ location }) => {
+  console.log(location);
   return (
     <iframe
       title="map"
