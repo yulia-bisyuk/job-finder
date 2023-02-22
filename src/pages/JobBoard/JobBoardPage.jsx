@@ -1,4 +1,5 @@
 import { useEffect, useState, useContext } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { JobDetailsContext } from '../../components/App';
 import axios from 'axios';
 import ListItem from 'components/ListItem/ListItem';
@@ -11,7 +12,9 @@ import { BASE_URL } from 'constants/baseURL';
 
 const JobBoard = () => {
   const [jobs, setJobs] = useState([]);
-  const [page, setPage] = useState(1);
+  // const [page, setPage] = useState(1);
+  const [searchParams, setSearchParams] = useSearchParams();
+  const currentPage = searchParams.get('page') ?? 1;
   const [error, setError] = useState(false);
   const [dataError, setDataError] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
@@ -22,15 +25,17 @@ const JobBoard = () => {
   useEffect(() => {
     setIsLoading(true);
     axios
-      .get(`${BASE_URL}?${categoryParam}&page=${page}`)
+      .get(`${BASE_URL}?${categoryParam}&page=${currentPage}`)
       .then(res => {
         // console.log('res', res.data.results);
         if (res.data.results.length !== 0) {
           setJobs(res.data.results);
           setSuccess(true);
           setDataError(false);
+          setError(false);
         } else {
           setDataError(true);
+          setError(true);
         }
       })
       .catch(err => {
@@ -38,7 +43,7 @@ const JobBoard = () => {
         setError(true);
       })
       .finally(() => setIsLoading(false));
-  }, [page, categoryParam]);
+  }, [currentPage, categoryParam]);
 
   // console.log('jobs', jobs);
 
@@ -56,7 +61,7 @@ const JobBoard = () => {
               jobs &&
               jobs.map(job => <ListItem key={job.id} job={job} />)}
           </List>
-          <Pagination setCurrentPage={setPage} />
+          <Pagination setSearchParams={setSearchParams} />
         </>
       )}
     </>

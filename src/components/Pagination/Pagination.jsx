@@ -1,10 +1,9 @@
 import { useState } from 'react';
 import sprite from '../../icons/sprite.svg';
 import './pagination.css';
-
 import ReactPaginate from 'react-paginate';
 
-const Pagination = ({ setCurrentPage }) => {
+const Pagination = ({ setSearchParams }) => {
   const itemsPerPage = 20;
   const totalJobsPages = 18;
 
@@ -13,15 +12,14 @@ const Pagination = ({ setCurrentPage }) => {
   const endOffset = itemOffset + itemsPerPage;
 
   const handlePageClick = event => {
-    setCurrentPage(event.selected + 1);
+    // setPage(event.selected + 1);
+    console.log(event);
+
+    setSearchParams({ page: event.selected + 1 });
     const newOffset = (event.selected * itemsPerPage) % totalJobsPages;
     setItemOffset(newOffset);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
-
-  // const next = () => {
-  //   return <span>next</span>;
-  // };
 
   return (
     <>
