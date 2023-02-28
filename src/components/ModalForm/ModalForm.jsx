@@ -84,7 +84,7 @@ const ModalForm = props => {
                   props.onHide();
                   setFormSubmitted(false);
                 }}
-                className="me-auto ms-auto"
+                className="mx-auto"
                 variant="outline-success"
               >
                 Close

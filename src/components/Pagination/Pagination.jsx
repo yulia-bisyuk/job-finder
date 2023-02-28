@@ -1,67 +1,82 @@
-import { useState } from 'react';
-import sprite from '../../icons/sprite.svg';
+import Pagination from 'react-bootstrap/Pagination';
+import uuid from 'react-uuid';
+import { scrollToTop } from 'helpers/helpers';
 import './pagination.css';
-import ReactPaginate from 'react-paginate';
 
-const Pagination = ({ setSearchParams }) => {
-  const itemsPerPage = 20;
-  const totalJobsPages = 18;
+const BoardPagination = ({ setSearchParams, currentPage, pageCount }) => {
+  const totalPages = pageCount > 18 ? 18 : pageCount - 1;
 
-  const [itemOffset, setItemOffset] = useState(0);
-  // eslint-disable-next-line
-  const endOffset = itemOffset + itemsPerPage;
-
-  const handlePageClick = event => {
-    // setPage(event.selected + 1);
-    console.log(event);
-
-    setSearchParams({ page: event.selected + 1 });
-    const newOffset = (event.selected * itemsPerPage) % totalJobsPages;
-    setItemOffset(newOffset);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+  const onPageClick = i => {
+    setSearchParams({ page: i });
+    scrollToTop();
   };
+
+  const onFirstClick = () => {
+    setSearchParams({ page: 1 });
+    scrollToTop();
+  };
+
+  const onLastClick = () => {
+    setSearchParams({ page: totalPages });
+    scrollToTop();
+  };
+
+  const onPrevClick = () => {
+    if (+currentPage > 1) setSearchParams({ page: +currentPage - 1 });
+    scrollToTop();
+  };
+
+  const onNextClick = () => {
+    if (+currentPage < totalPages) setSearchParams({ page: +currentPage + 1 });
+    scrollToTop();
+  };
+
+  const createPaginationItem = i => {
+    return (
+      <Pagination.Item
+        key={uuid()}
+        active={i === +currentPage}
+        onClick={() => onPageClick(i)}
+      >
+        {i}
+      </Pagination.Item>
+    );
+  };
+
+  const paginationItems = [];
+  paginationItems.push(createPaginationItem(1));
+  paginationItems.push(<Pagination.Ellipsis key={uuid()} disabled />);
+  const midpoint = Math.floor(totalPages / 2);
+
+  console.log('midpoint', midpoint);
+  // const renderCount = (totalPages === 18 ? 4 : midpoint / 2) || 1;
+  for (let i = midpoint; i <= midpoint + 4; i++) {
+    paginationItems.push(createPaginationItem(i));
+  }
+  paginationItems.push(<Pagination.Ellipsis key={uuid()} disabled />);
+  paginationItems.push(createPaginationItem(totalPages));
 
   return (
     <>
-      <ReactPaginate
-        breakLabel="..."
-        nextLabel={
-          <div className="wrapper">
-            <span className="divider">|</span>
-            <svg className="nav-icon">
-              <use href={sprite + '#icon-go-pagination-forw'} />
-            </svg>
-          </div>
-        }
-        onPageChange={handlePageClick}
-        pageRangeDisplayed={5}
-        marginPagesDisplayed={1}
-        pageCount={18}
-        previousLabel={
-          <div className="wrapper">
-            <svg className="nav-icon">
-              <use href={sprite + '#icon-go-pagination-back'} />
-            </svg>
-            <span className="divider">|</span>
-          </div>
-        }
-        renderOnZeroPageCount={null}
-        className="paginationContainer"
-        pageClassName="page"
-        activeClassName="active"
-      />
+      <Pagination className="mb-3 justify-content-center">
+        <Pagination.First onClick={() => onFirstClick()} key={uuid()} />
+        <Pagination.Prev
+          disabled={+currentPage === 1}
+          onClick={() => onPrevClick()}
+          key={uuid()}
+        />
+
+        {paginationItems}
+
+        <Pagination.Next
+          disabled={+currentPage === totalPages}
+          onClick={() => onNextClick()}
+          key={uuid()}
+        />
+        <Pagination.Last id="last" onClick={() => onLastClick()} key={uuid()} />
+      </Pagination>
     </>
   );
 };
 
-//   return <PaginatedItems itemsPerPage={4} />;
-// Example items, to simulate fetching from another resources.
-
-// Add a <div id="container"> to your HTML to see the componend rendered.
-//   ReactDOM.render(
-//     <PaginatedItems itemsPerPage={4} />,
-//     document.getElementById('container')
-//   );
-// };
-
-export default Pagination;
+export default BoardPagination;

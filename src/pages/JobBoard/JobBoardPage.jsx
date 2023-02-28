@@ -3,7 +3,7 @@ import { useSearchParams } from 'react-router-dom';
 import { JobDetailsContext } from '../../components/App';
 import axios from 'axios';
 import ListItem from 'components/ListItem/ListItem';
-import Pagination from 'components/Pagination/Pagination';
+import BoardPagination from 'components/Pagination/Pagination';
 import Error from 'components/Error/Error';
 import PageHeader from 'components/PageHeader/PageHeader';
 import Loader from 'components/Loader/Loader';
@@ -12,7 +12,7 @@ import { BASE_URL } from 'constants/baseURL';
 
 const JobBoard = () => {
   const [jobs, setJobs] = useState([]);
-  // const [page, setPage] = useState(1);
+  const [pageCount, setPageCount] = useState(null);
   const [searchParams, setSearchParams] = useSearchParams();
   const currentPage = searchParams.get('page') ?? 1;
   const [error, setError] = useState(false);
@@ -27,9 +27,10 @@ const JobBoard = () => {
     axios
       .get(`${BASE_URL}?${categoryParam}&page=${currentPage}`)
       .then(res => {
-        // console.log('res', res.data.results);
+        console.log('res', res.data);
         if (res.data.results.length !== 0) {
           setJobs(res.data.results);
+          setPageCount(res.data.page_count);
           setSuccess(true);
           setDataError(false);
           setError(false);
@@ -61,7 +62,11 @@ const JobBoard = () => {
               jobs &&
               jobs.map(job => <ListItem key={job.id} job={job} />)}
           </List>
-          <Pagination setSearchParams={setSearchParams} />
+          <BoardPagination
+            setSearchParams={setSearchParams}
+            currentPage={currentPage}
+            pageCount={pageCount}
+          />
         </>
       )}
     </>
